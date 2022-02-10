@@ -1,0 +1,155 @@
+body{
+    align-self: center;
+     padding: 2% 24%; 
+     font-size: 20px;
+  
+  }
+  
+  
+  .trip{
+    height: 15em;
+    width: 11em;
+    font-size: 25px ;
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px gray;
+    margin-left: 10px;
+  }
+  .paris{
+    text-align: center;
+    color: red;
+    font-size: 40px ;
+    padding-top: 20px  ;
+    padding-bottom: 10px;
+  }
+  .completed{
+   text-align: center;
+   color: red;
+   text-decoration: line-through;
+   font-size: 25px;
+   padding-top: 20px  ;
+  }
+  .form{
+    font-size: 25px;
+  }
+  .plus{
+    padding: 20px 10px 15px 60px;
+   
+    }
+    .arrow{
+      height: 35px;
+      width: 35px ;
+      border-radius: 50%;
+      background-color: red;
+      display: inline-block;
+    }
+    .back1{
+      display: inline;
+      font-size: 50px;
+      padding: 20px;
+      color: black;
+    }
+    .center1
+    {
+      margin-left: 150px;
+      
+      
+    }
+    .center{
+      margin-left: 50px;
+    }
+    .hr1{
+    width: 200px;
+    }
+    .hr2{
+      width: 200px;
+      }
+      .material-icons{
+        font-size: 60px;
+      }
+    @media  (min-width: 300px) and (max-width: 410px) {
+     body{
+       padding: 20% 10%; 
+       font-size: 13px;
+       margin-left: 50px;
+  
+     }
+      .hr1{
+        width: 50px;
+     
+      }
+      .hr2{
+        width: 50px;
+      }
+      .firstheading{
+        font-size: 20px;
+      }
+  
+      .trip{
+        height: 17em;
+        width: 11em;
+        font-size: 16px ;
+        border: 2px solid red;
+        border-radius: 15px;
+        box-shadow: 10px 10px 8px gray;
+        margin-left:-9px;
+        margin-top: -5px;
+      }
+      .paris{
+        text-align: center;
+        color: red;
+        font-size: 25px ;
+        padding-top: 10px  ;
+        padding-bottom: 10px;
+      }
+      .completed{
+       text-align: center;
+       color: red;
+       text-decoration: line-through;
+       font-size: 25px;
+       padding-top: 5px  ;
+      }
+      .form{
+        font-size: 20px;
+      }
+      .plus{
+        padding: 20px 10px 15px 60px;
+        position: absolute;
+        top: 400px;
+        left: 170px;
+        }
+        .arrow{
+          height: 35px;
+          width: 35px ;
+          border-radius: 50%;
+          background-color: red;
+          display: inline-block;
+        }
+        .back1{
+          display: inline;
+          font-size: 25px;
+          padding: 15px;
+          color: black;
+        }
+        .center1
+        {
+          margin-left: 25px;
+          
+          
+        }
+        .center{
+          margin-left: 25px;
+        }
+        .material-icons{
+          font-size: 40px;
+        }
+  
+  
+  
+  
+      
+    }
+    
+    
+    
+   

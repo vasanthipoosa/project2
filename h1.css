@@ -1,0 +1,216 @@
+body{
+    
+    font-size: 20px;
+}
+.aaa{
+  margin-left: 25%;
+ display: grid;
+ grid-template-columns: auto auto auto;
+
+}
+.tl{
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+}
+.task{
+  font-size: 50px;
+  display: inline;
+  
+}
+.tla{
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.list{
+  font-size: 52px;
+  display: inline;
+}
+.material-icons{
+  font-size:50px;
+}
+.add{
+  display: inline;
+  margin-left: 10em;
+}
+.addlist{
+  display: inline;
+  font-size: 40px;
+}
+.a{
+  display: flex;
+  margin: 100px;
+}
+.trip{
+  border: 2px solid red; 
+  border-radius: 12px;
+  height:15em ;
+  width: 12em;
+  box-shadow: 5px 5px 15px gray;
+  margin-right: 2em;
+  margin-top: 10px;
+  
+}
+.hr{
+  padding-left: 50px;
+}
+.paris{
+  text-align: center;
+  margin: 20px;
+  color: red;
+  font-size: 25px;
+}
+.completed{
+  text-align: center;
+  color: red;
+  text-decoration: line-through ;
+  font-size: 25px;
+  line-height: 40px;
+}
+.form{
+  font-size: 20px;
+}
+.todo{
+  border: 2px solid red; 
+  border-radius: 12px;
+  height:15em ;
+  width: 12em;
+  box-shadow: 5px 5px 15px gray; 
+  margin-right: 2em; 
+   margin-top: 10px;
+}
+.todo1{
+  border: 2px solid red; 
+  border-radius: 12px;
+  height:15em ;
+  width: 12em;
+  box-shadow: 5px 5px 15px gray; 
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.box4{
+margin-top: 10px;
+margin-right: 30px;
+}
+.box5{
+  margin-top: 10px;
+  margin-right: 30px;
+  }
+  .box6{
+      margin-top: 10px;
+      }
+@media  (min-width:300px) and (max-width:475px){
+  body{
+        font-size: 15px;
+        padding: 2% 10%;
+  }
+  .aaa{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+      padding-left: 0%;
+  }
+  .tl{
+     display: inline-block;
+     justify-content: center;
+     align-items: center;
+  }
+  .task{
+      font-size: 25px;
+      display: inline;
+  }
+  .list{
+      font-size: 20px;
+      display: inline;
+      margin-right: 20px;
+  }
+  .material-icons{
+      font-size:10px;
+      
+  }
+  .add{
+      display: inline;
+      margin-left: 1em;
+    
+  }
+  .addlist{
+      display: inline;
+      font-size: 20px;
+  }
+  .a{
+      display: flex;
+      margin: 100px;
+  }
+  .trip{
+      border: 2px solid red; 
+      border-radius: 12px;
+      height:70px ;
+      width: 17em;
+      box-shadow: 5px 5px 15px gray;
+    
+  }
+  .hr{
+      padding-left: 50px;
+      visibility: hidden;
+  }
+  .paris{
+      text-align: center;
+      margin: 20px;
+      color: red;
+      font-size: 25px;
+    
+  }
+  .completed{
+      text-align: center;
+      color: red;
+      text-decoration: line-through ;
+      font-size: 25px;
+      line-height: 40px;
+      visibility: hidden;
+  }
+  .form{
+      font-size: 20px;
+      visibility: hidden;
+  }
+  .todo{
+      border: 2px solid red; 
+      border-radius: 12px;
+      height:70px ;
+      width: 17em;
+      box-shadow: 5px 5px 15px gray; 
+      margin-right: 2em;
+  }
+  .todo1{
+      border: 2px solid red; 
+      border-radius: 12px;
+      height:70px ;
+      width: 17em;
+      box-shadow: 5px 5px 15px gray; 
+  }
+ 
+      .tla{
+          margin-left: 0%;
+          margin-top: 2%;
+      }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
